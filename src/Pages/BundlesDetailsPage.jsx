@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import PoloSelector from '../components/poloBundle';
+import { getApiBaseUrl } from '../utils/config';
 
 const BundleSelectionPage = () => {
 	const { id } = useParams();
